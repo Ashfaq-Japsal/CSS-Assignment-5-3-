@@ -1,56 +1,72 @@
-
-
-.box1 {
+header {
+    width: 30.1%;
     height: 50px;
-    width: 350px;
-    background-color: limegreen;
-    border: 2px solid black;
+    border: 1px solid gray;
+    margin: 5px;
 }
 
-.box2 {
+nav {
+    width: 30.1%;
     height: 50px;
-    width: 350px;
-    background-color: lightblue;
-    border: 2px solid black;
+    border: 1px solid gray;
+    margin: 5px;
 }
 
-.box3 {
+.left {
+    width: 7%;
     height: 250px;
-    width: 75px;
-    background-color: navy;
-    border: 2px solid black;
+    border: 1px solid gray; 
+    float: left;
+    margin: 0px 0px 5px 5px;
+    /* box-sizing: border-box; */
 }
 
-.float {
-    display: inline-block;
-}
-
-.box4 {
+section {
+    width: 15%;
     height: 250px;
-    width: 200px;
-    background-color: purple;
-    border: 2px solid black;
+    border: 1px solid gray; 
+    float: left;
+    margin: 0px 0px 5px 5px;
+    /* box-sizing: border-box; */
 }
 
-.box5 {
+.right {
+    width: 7%;
+    height: 250px;
+    border: 1px solid gray; 
+    float: left;
+    margin: 0px 0px 5px 5px;
+    /* box-sizing: border-box; */
+}
+
+footer {
+    width: 30.1%;
     height: 50px;
-    width: 350px;
-    background-color: tomato;
-    border: 2px solid black;
+    border: 1px solid gray;
+    clear: both;
+    margin: 5px;
 }
 
-.box6 {
-    height: 250px;
-    width: 70px;
-    background-color: purple;
-    border: 2px solid black;
-}
-
-#main {
-    margin: 7% 37%;
-}
-
-div h3 {
+.main {
     text-align: center;
-    color: white;
+    font-size: x-large;
+    margin: 8% 35%;
+    width: 100%;
+
+}
+
+.intro {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: rgb(110, 77, 4);
+    font-size: xx-large;
+    font-weight: bold;
+    border-bottom: 3px dotted red;
+    border-right: 3px dotted red;
+    padding: 5px;
+}
+
+.Author {
+    color: rgb(0, 255, 55);
 }
